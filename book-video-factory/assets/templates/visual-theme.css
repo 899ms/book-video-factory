@@ -1,0 +1,10 @@
+:root {
+  --book-title-color: #fffdf5;
+  --book-author-color: #d67a28;
+  --book-caption-color: #fffdf5;
+  --book-overlay-rgb: 8, 10, 7;
+  --book-overlay-top-opacity: 0.50;
+  --book-overlay-middle-opacity: 0.14;
+  --book-overlay-bottom-opacity: 0.30;
+  --book-caption-backdrop-opacity: 0.32;
+}

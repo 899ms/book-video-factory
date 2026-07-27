@@ -1,0 +1,34 @@
+schema_version: 1
+book_id: __BOOK_ID__
+account_id: __ACCOUNT_ID__
+title: __BOOK_TITLE__
+author: __BOOK_AUTHOR__
+angle: ""
+target_emotion: ""
+overrides: {}
+versions:
+  script: 0
+  storyboard: 0
+  images: 0
+  audio: 0
+  preview: 0
+  output: 0
+status:
+  research: pending
+  script: pending
+  storyboard: pending
+  images: pending
+  voice: pending
+  preview: pending
+  output: pending
+  publish: unpublished
+artifacts:
+  research: ""
+  script: ""
+  storyboard: ""
+  images: []
+  voice: ""
+  final_mix: ""
+  transcript: ""
+  preview: ""
+  output: ""

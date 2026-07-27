@@ -1,0 +1,62 @@
+schema_version: 1
+account_id: __ACCOUNT_ID__
+platform: xiaohongshu
+
+video:
+  width: 1080
+  height: 1920
+  target_duration_seconds: 40
+  intro: ""
+  visual_theme: shared/config/visual-theme.css
+  opening:
+    first_line: 今天分享的是
+    first_line_start_seconds: 0
+    say_book_title_at_main_start: true
+    title_format: "《{book_title}》"
+    pacing: relaxed
+  intro_to_main_transition:
+    type: glitch
+    duration_seconds: 0.35
+    intensity: light
+  ending:
+    fade_out: false
+
+audio:
+  voice_reference: ""
+  tts:
+    provider: auto
+    options: {}
+  bgm: ""
+  bgm_start_seconds: 0
+  bgm_loop: true
+  bgm_loop_crossfade: true
+  duck_under_voice: true
+  mix:
+    intro_original_audio_volume: 0.55
+    voice_volume: 1.0
+    bgm_volume: 0.15
+    integrated_lufs: -14
+    true_peak_db: -1.5
+
+subtitles:
+  languages:
+    - zh-CN
+  title_uses_book_marks: true
+
+images:
+  count: 4
+  default_style: healing-watercolor-storybook
+
+providers:
+  research: auto
+  image: auto
+  tts: auto
+  transcription: auto
+  audio_mix: auto
+  renderer: auto
+
+workflow:
+  require_script_approval: true
+  require_image_approval: true
+  require_preview_approval_before_render: true
+  allow_social_publish: false
